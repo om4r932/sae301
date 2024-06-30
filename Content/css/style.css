@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+body{
+    color: #ebebeb;
+    font-family: 'Lalezar';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.content {
+    flex: 1;
+}
+
+footer > .col-md-4{
+    border: 0;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel], select{
+    border: 2px solid #1B779f;
+    margin-bottom: 15px;
+    width: 50vh;
+    font-size: 25px;
+}
+
+#formgest input[type=text]{
+    width: 100vh;
+}
+
+#formgest input[type=email]{
+    width: 100vh;
+}
+
+#formgest input[type=tel]{
+    width: 100vh;
+}
+
+#formgest button[type=submit]{
+    width: 125px;
+    font-size: 20px;
+}
+
+#formgest select{
+    width: 100vh;
+    font-size: 20px;
+}
+
+#field::placeholder{
+    opacity: 0.5;
+}
+
+button[type=submit]{
+    background-color: #1B779f;
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    font-size: 25px;
+    margin: 20px 0;
+    width: 250px;
+    cursor:pointer;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 65px;
+}
+
+#title {
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: #1B779f;
+    text-decoration: none;
+}
+
+/* @media (min-width: A definir){
+    A faire pour le responsive coté mobile
+} */
+
+.bleu1 {
+    color:#1B779f;
+}
+
+.bleu2{
+    color:#2388B0;
+}
+
+.bleu{
+    color:#0B4E6A;
+}
+
+.col-md-4{
+    text-align: center;
+    border-top: 2px solid #1b779f;
+    border-bottom: 2px solid #1b779f;
+}
+
+.form-nom {
+    position: relative;
+    left: 25px;
+    size:25px;
+}
+
+.container-fluid{
+    background-color: white;
+}
+
+input, select {
+    border-radius: 10px;
+}
+

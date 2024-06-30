@@ -1,0 +1,38 @@
+#header{
+    height:70px;
+    background:#2388B0;
+    }
+    
+#nom_en_tete{
+        color: rgb(0, 0, 0);
+        font-size: large;
+        font-weight: 900;
+        margin-left: 100px;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #bbbbbb;
+}
+
+/* Style pour afficher la suite du tableau */
+#suite-tableau {
+    display: none;
+    margin-top: 20px;
+}
+
+#voir-plus {
+    cursor: pointer;
+    color: blue;
+}
